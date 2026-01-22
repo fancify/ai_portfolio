@@ -30,8 +30,8 @@ export default function Home() {
       </Head>
       <main className="container">
         <header className="header">
-          <h1 className="title">AI Projects Portfolio</h1>
-          <p className="subtitle">个人AI项目作品集与快捷入口</p>
+          <h1 className="title">Always Day 1</h1>
+          <p className="subtitle">ChenFan AI Projects Portfolio</p>
         </header>
         
         <div className="categories">
