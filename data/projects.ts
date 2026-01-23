@@ -1,16 +1,16 @@
 import { Project } from '@/types/project'
 
 export const projects: Project[] = [
-  {
-    id: 'booklist',
-    name: 'Booklist',
-    description: '书单收集、标准化与对比工具。支持从豆瓣等平台爬取书单，进行数据标准化和去重，支持多书单合并和频次排序。',
-    techStack: ['FastAPI', 'SQLAlchemy', 'BeautifulSoup', 'Python'],
-    status: 'active',
-    category: 'tools',
-    githubUrl: 'https://github.com/yourusername/booklist',
-    apiUrl: 'https://your-api-url.com/docs',
-  },
+  // {
+  //   id: 'booklist',
+  //   name: 'Booklist',
+  //   description: '书单收集、标准化与对比工具。支持从豆瓣等平台爬取书单，进行数据标准化和去重，支持多书单合并和频次排序。',
+  //   techStack: ['FastAPI', 'SQLAlchemy', 'BeautifulSoup', 'Python'],
+  //   status: 'active',
+  //   category: 'tools',
+  //   githubUrl: 'https://github.com/yourusername/booklist',
+  //   apiUrl: 'https://your-api-url.com/docs',
+  // },
   {
     id: 'btc-cycle-strategy',
     name: 'BTC 周期交易策略回测平台',
@@ -27,7 +27,9 @@ export const projects: Project[] = [
       'Vercel Serverless'
     ],
     status: 'active',
-    demoUrl: 'https://btc-cycle.chenfan.space'
+    category: 'tools',
+    demoUrl: 'https://btc-cycle.chenfan.space',
+    githubUrl: 'https://github.com/fancify/bitcoin_cycle_trade',
   },
   {
     id: 'celebrity-book-recommendations',
@@ -36,7 +38,8 @@ export const projects: Project[] = [
     techStack: ['React 19', 'TypeScript', 'tRPC 11', 'Tailwind CSS 4', 'Node.js', 'MySQL', 'S3'],
     status: 'active',
     category: 'tools',
-    githubUrl: 'https://github.com/yourusername/celebrity-book-recommendations', // 需要替换为实际URL
+    demoUrl: 'https://booklist.chenfan.space',
+    githubUrl: 'https://github.com/fancify/celebrity_book_recommendations', // 需要替换为实际URL
 
   },
   // 你可以在这里添加更多项目
