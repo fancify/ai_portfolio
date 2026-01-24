@@ -12,6 +12,16 @@ export const projects: Project[] = [
   //   apiUrl: 'https://your-api-url.com/docs',
   // },
   {
+    id: 'script-refiner',
+    name: 'Script Refiner / Script 汉化总结平台',
+    description: '一键将英文播客逐字稿转为中文精炼对话、总结文章和要点金句。支持7款主流AI模型',
+    techStack: ['Next.js 14', 'TypeScript', 'React', 'Tailwind CSS', 'Supabase', 'OpenRouter API'],
+    status: 'active',
+    category: 'tools',
+    demoUrl: 'https://script.chenfan.space', // 替换为实际域名
+    githubUrl: 'https://github.com/fancify/script-refiner',
+  },
+  {
     id: 'btc-cycle-strategy',
     name: 'BTC 周期交易策略回测平台',
     description: '基于多因子分析的比特币周期交易策略回测系统，等市场周期指标，支持自定义策略参数配置、收益曲线可视化、套利收益叠加分析，帮助投资者验证和优化交易策略。',
