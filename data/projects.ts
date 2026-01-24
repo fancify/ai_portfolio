@@ -13,12 +13,12 @@ export const projects: Project[] = [
   // },
   {
     id: 'script-refiner',
-    name: 'Script Refiner / Script 汉化总结平台',
+    name: '播客Script文字优化MVP',
     description: '一键将英文播客逐字稿转为中文精炼对话、总结文章和要点金句。支持7款主流AI模型',
     techStack: ['Next.js 14', 'TypeScript', 'React', 'Tailwind CSS', 'Supabase', 'OpenRouter API'],
     status: 'active',
     category: 'tools',
-    demoUrl: 'https://script.chenfan.space', // 替换为实际域名
+    demoUrl: 'https://transcript.chenfan.space', // 替换为实际域名
     githubUrl: 'https://github.com/fancify/script-refiner',
   },
   {
