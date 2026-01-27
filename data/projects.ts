@@ -15,7 +15,7 @@ export const projects: Project[] = [
     id: 'podcast-script-refiner',
     name: 'ScriptCraft：播客文稿，一键精炼总结',
     description: '一键将英文播客逐字稿转为中文精炼对话、总结文章和要点金句，支持 7 款主流 AI 模型。',
-    techStack: ['Claude Code', 'Openrouter API', 'Gladia API', 'Vercel', 'Supabase',],
+    techStack: ['Claude Code', 'Openrouter API', 'Gladia API', 'Vercel', 'Supabase'],
     status: 'active',
     category: 'tools',
     demoUrl: 'https://transcript.chenfan.space',
