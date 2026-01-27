@@ -1,4 +1,5 @@
 import { Project } from '@/types/project'
+import Image from 'next/image'
 
 interface ProjectCardProps {
   project: Project
@@ -13,6 +14,16 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
   return (
     <div className="project-card" onClick={handleCardClick}>
+      {project.imageUrl && (
+        <div className="project-image">
+          <Image
+            src={project.imageUrl}
+            alt={project.name}
+            fill
+            style={{ objectFit: 'cover', objectPosition: 'bottom' }}
+          />
+        </div>
+      )}
       <div className="project-header">
         <h2 className="project-title">{project.name}</h2>
         {project.status && (
