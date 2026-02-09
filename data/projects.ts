@@ -24,11 +24,9 @@ export const projects: Project[] = [
   },
   {
     id: 'btc-cycle-strategy',
-    name: 'BTC 周期交易策略回测平台',
-    description: '基于多因子分析的比特币周期交易策略回测系统，等市场周期指标，支持自定义策略参数配置、收益曲线可视化、套利收益叠加分析，帮助投资者验证和优化交易策略。',
-    techStack: [
-      'Manus',
-    ],
+    name: 'BTC周期交易策略研发平台',
+    description: '基于深度学习的多因子分析比特币周期量化交易策略研发平台，支持自定义策略参数配置、收益曲线可视化、套利收益叠加分析，帮助投资者验证和优化交易策略。（仅限被邀请用户）',
+    techStack: [],
     status: 'active',
     category: 'tools',
     demoUrl: 'https://btc-cycle.chenfan.space',
