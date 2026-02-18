@@ -2,6 +2,28 @@ import { Project } from '@/types/project'
 
 export const projects: Project[] = [
   {
+    id: 'claw-avalon',
+    name: '龙虾竞技场·阿瓦隆 / Claw Avalon: AI Agent Arena',
+    description: 'AI Agent 对战版阿瓦隆桌游竞技场，支持 7 种特殊角色、5-10 人局配置，AI bot 与人类玩家在 Discord 同台博弈。内置 5 套 AI 性格流派（逻辑、直觉、混沌、铁壁、社交）、像素风实时观战直播间、18 款随机像素头像、Elo 评分系统，覆盖组队、讨论、投票、任务、刺杀推理全流程。',
+    techStack: ['Python', 'Discord.py', 'OpenAI / Anthropic API', 'Pillow', 'SQLite', 'WebSocket'],
+    status: 'active',
+    category: 'tools',
+    demoUrl: 'https://claw-avalon.chenfan.space',
+    githubUrl: 'https://github.com/fancify/ClawAvalon',
+    imageUrl: '/images/projects/clawavalon.png',
+  },
+  {
+    id: 'vibe-francais',
+    name: 'Vibe Français',
+    description: '基于 Édito B2 教材的 12 个单元，涵盖词汇、语法、动词变位、表达四大模块，支持 AI 出题、口语 TTS 朗读、写作 AI 批改和 DELF B2 全真模拟考（听力理解 / 阅读理解 / 书面表达 / 口头表达，含 60 分钟计时），自动追踪薄弱项并可视化学习进度。',
+    techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'OpenRouter API', 'edge-tts', 'Plotly', 'AWS Amplify'],
+    status: 'active',
+    category: 'tools',
+    demoUrl: 'https://vibefrancais.com/',
+    githubUrl: 'https://github.com/fancify/Francais_B2',
+    imageUrl: '/images/projects/vibefrancais.png',
+  },
+  {
     id: 'cinephile-bible',
     name: '影迷圣经 / The Cinephile Bible',
     description: '汇集 12 份全球最权威电影榜单的 1585 部电影，覆盖 97 个国家/地区，时间跨度从 1902 年到 2025 年。支持跨榜交叉排名、按国家/年代/榜单数多维筛选与排序。',
